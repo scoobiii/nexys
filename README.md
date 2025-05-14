@@ -23,33 +23,33 @@ Permitir iteração em projetos legados e criação de novos microsserviços com
 
 ---
 
-Arquitetura Geral
-
-graph TD
-  AEC["Agente de Execução Central"]
-  Planner["Planejador de Tarefas"]
-  Repo["Agente de Repositório"]
-  Env["Agente de Configuração de Ambiente"]
-  Exec["Agente Executor / Testador"]
-  Logs["Agente Analisador de Logs"]
-  Code["Agente Codificador"]
-  Tests["Agente Gerador de Testes"]
-  Docs["Agente Otimizador / Documentador"]
-  Obs["Sistema de Observação"]
-
-  AEC --> Planner
-  Planner --> Repo
-  Planner --> Env
-  Env --> Exec
-  Exec --> Logs
-  Logs --> Code
-  Code --> Tests
-  Tests --> Docs
-  Docs --> Repo
-  Exec --> Obs
-  Logs --> Obs
-  Code --> Obs
-  Docs --> Obs
+    Arquitetura Geral
+    
+    graph TD
+      AEC["Agente de Execução Central"]
+      Planner["Planejador de Tarefas"]
+      Repo["Agente de Repositório"]
+      Env["Agente de Configuração de Ambiente"]
+      Exec["Agente Executor / Testador"]
+      Logs["Agente Analisador de Logs"]
+      Code["Agente Codificador"]
+      Tests["Agente Gerador de Testes"]
+      Docs["Agente Otimizador / Documentador"]
+      Obs["Sistema de Observação"]
+    
+      AEC --> Planner
+      Planner --> Repo
+      Planner --> Env
+      Env --> Exec
+      Exec --> Logs
+      Logs --> Code
+      Code --> Tests
+      Tests --> Docs
+      Docs --> Repo
+      Exec --> Obs
+      Logs --> Obs
+      Code --> Obs
+      Docs --> Obs
 
 
 ---
