@@ -1,11 +1,4 @@
-# nexys
-frame work de criação analise e correção de codigo, api, microserviços e legado
-
-Claro! Aqui está o conteúdo do README.md com uma seção contendo o diagrama Mermaid para ilustrar o fluxo entre os agentes do framework Nexys:
-
-README.md
-
-Nexys Framework
+# Nexys Framework
 
 Nexys é um framework de automação DevOps baseado em agentes inteligentes (LLMs), voltado para análise de repositórios, refatoração, testes, geração de documentação e criação de novos serviços de forma autônoma e colaborativa.
 
